@@ -14,6 +14,9 @@
 		12D4829E1A64AF8500338ABB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D4829D1A64AF8500338ABB /* Images.xcassets */; };
 		12D482A11A64AF8500338ABB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D4829F1A64AF8500338ABB /* LaunchScreen.xib */; };
 		12D482AD1A64AF8500338ABB /* WordPlayRebuiltTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D482AC1A64AF8500338ABB /* WordPlayRebuiltTests.m */; };
+		12D482B81A64B7C800338ABB /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D482B71A64B7C800338ABB /* EnterNameViewController.m */; };
+		12D482BB1A64B98300338ABB /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D482BA1A64B98300338ABB /* EnterAdjectiveViewController.m */; };
+		12D482BE1A64BABB00338ABB /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D482BD1A64BABB00338ABB /* ResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		12D482A61A64AF8500338ABB /* WordPlayRebuiltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayRebuiltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D482AB1A64AF8500338ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12D482AC1A64AF8500338ABB /* WordPlayRebuiltTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPlayRebuiltTests.m; sourceTree = "<group>"; };
+		12D482B61A64B7C800338ABB /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNameViewController.h; sourceTree = "<group>"; };
+		12D482B71A64B7C800338ABB /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
+		12D482B91A64B98300338ABB /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
+		12D482BA1A64B98300338ABB /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		12D482BC1A64BABB00338ABB /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		12D482BD1A64BABB00338ABB /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +92,15 @@
 			children = (
 				12D482941A64AF8500338ABB /* AppDelegate.h */,
 				12D482951A64AF8500338ABB /* AppDelegate.m */,
+				12D4829A1A64AF8500338ABB /* Main.storyboard */,
 				12D482971A64AF8500338ABB /* ViewController.h */,
 				12D482981A64AF8500338ABB /* ViewController.m */,
-				12D4829A1A64AF8500338ABB /* Main.storyboard */,
+				12D482B61A64B7C800338ABB /* EnterNameViewController.h */,
+				12D482B71A64B7C800338ABB /* EnterNameViewController.m */,
+				12D482B91A64B98300338ABB /* EnterAdjectiveViewController.h */,
+				12D482BA1A64B98300338ABB /* EnterAdjectiveViewController.m */,
+				12D482BC1A64BABB00338ABB /* ResultsViewController.h */,
+				12D482BD1A64BABB00338ABB /* ResultsViewController.m */,
 				12D4829D1A64AF8500338ABB /* Images.xcassets */,
 				12D4829F1A64AF8500338ABB /* LaunchScreen.xib */,
 				12D482901A64AF8500338ABB /* Supporting Files */,
@@ -221,6 +236,9 @@
 			files = (
 				12D482991A64AF8500338ABB /* ViewController.m in Sources */,
 				12D482961A64AF8500338ABB /* AppDelegate.m in Sources */,
+				12D482BB1A64B98300338ABB /* EnterAdjectiveViewController.m in Sources */,
+				12D482BE1A64BABB00338ABB /* ResultsViewController.m in Sources */,
+				12D482B81A64B7C800338ABB /* EnterNameViewController.m in Sources */,
 				12D482931A64AF8500338ABB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
